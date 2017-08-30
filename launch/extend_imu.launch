@@ -1,8 +1,0 @@
-<launch>
-    <node pkg="turtlebot_extended_devices" type="extended_imu.py" name="extended_imu_node" output="screen">
-        <param name="port" value="/dev/ttyUSB0"/>
-        <param name="baud" value="115200"/>
-        <param name="device_info" value="HiPUNC HI219M"/>
-    </node>
-
-</launch>
